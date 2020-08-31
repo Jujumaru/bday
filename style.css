@@ -1,0 +1,52 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.racer-table {
+  margin: 10px;
+  height: 300px;
+}
+
+.racer-table td {
+    width: 50px;
+    height: 50px;
+}
+
+.racer-table td.active s{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+td.active {
+  background-image: url(images/poule.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#player2-race td.active {
+  background-image: url(images/wolftall.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+} 
+
+td:last-child {
+  background-image: url(images/chicks.png);
+  background-size: contain;
+}
+
+td:last-child.active {
+  background-size: 90%, cover;
+  background-position: center, top left;
+}
+
+#player1-race td:last-child.active {
+  background-image: url('images/win.png');
+}
+
+ #player2-race td:last-child.active {
+  background-image: url('images/nuggets.jpeg');
+}
